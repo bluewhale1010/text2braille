@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bluewhale1010/text2braille.svg?branch=master)](https://travis-ci.org/bluewhale1010/text2braille) [![Coverage Status](https://coveralls.io/repos/github/bluewhale1010/text2braille/badge.svg?branch=master)](https://coveralls.io/github/bluewhale1010/text2braille?branch=master)
+
 Text 2 Braille
 =========
 
