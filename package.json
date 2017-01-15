@@ -1,0 +1,31 @@
+{
+  "name": "text2braille",
+  "version": "0.0.1",
+  "description": "A small library to convert text to braille notation.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluewhale1010/text2braille.git"
+  },
+  "keywords": [
+    "Text",
+    "Braille",
+    "Converter"
+  ],
+  "author": "Shahrukh Aslam <shahrukh.ak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluewhale1010/text2braille/issues"
+  },
+  "homepage": "https://github.com/bluewhale1010/text2braille#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
