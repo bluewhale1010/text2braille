@@ -1,6 +1,6 @@
 {
   "name": "text2braille",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small library to convert text to braille notation.",
   "main": "index.js",
   "directories": {
