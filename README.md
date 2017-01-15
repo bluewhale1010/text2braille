@@ -1,6 +1,3 @@
-# text2braille
-Text2Braille is a simple way to convert text to braille notation.
-
 Text 2 Braille
 =========
 
@@ -11,7 +8,12 @@ A small library to convert text to braille notation.
   `npm install @shaaslam/text2braille
 
 ## Usage
+    var toBraille = require('@shaaslam/text2braille');
 
+    var braille = toBraille('2944B');
+  
+  
+  Output should be `⠼⠃⠼⠊⠼⠙⠼⠙⠠⠃`
 
 
 ## Tests

@@ -1,11 +1,17 @@
 'use strict';
+const codes = require('./codes');
 
 /**
- * Adds commas to a number
- * @param {number} number
- * @param {string} locale
+ * Convert Text to Braille
+ * @param {string} text
  * @return {string}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
-};
+function toBraille(text){
+    var brailleText = '';
+    for (var i = 0; i < text.length; i++) {
+        brailleText += codes[text[i]]
+    };
+    return brailleText;
+}
+
+module.exports = toBraille;
